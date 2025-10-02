@@ -5,11 +5,11 @@
 }
 
 :root{
-    --cor-fundo: #f7f9f7;
-    --cor-texto: #222;
-    --cor-primaria: #0a3d91;
-    --cor-secundaria: #0f6fd6;
-    --cor-borda: #d9e2ef;
+    --cor-fundo: #000000;
+    --cor-texto: #ffffff;
+    --cor-primaria: #a600ff;
+    --cor-secundaria: #b94ee8;
+    --cor-borda: #9900ff;
 }
 
 html{
@@ -35,7 +35,7 @@ main, header, section, footer {
     padding-bottom: 16px;
     border-bottom: 1px solid var(--cor-secundaria);
     border-radius: 6px;
-    background: #ffff;
+    background: #b300ff;
 }
 
 table {
@@ -46,8 +46,8 @@ table {
 }
 
 th {
-    background-color: #0a3d91;
-    color: white;
+    background-color: #d400ff;
+    color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
     border: 1px solid #d9e2ef;
@@ -55,7 +55,7 @@ th {
 
 td {
     padding: 8px;
-    border: 1px solid #d9e2ef;
+    border: 1px solid #cc00ff;
     text-align: center;
 }
 
@@ -64,5 +64,6 @@ tbody tr:hover{
 }
 
 tbody tr:nth-child(even){
-    background-color: #6d7eff;
+    background-color: #cc00ff;
 }
+
