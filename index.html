@@ -130,11 +130,12 @@
     </footer>
     <script>
         if ("ServiceWorker" in navigator) {
-            navigator.ServiceWorker("service-worker.js")
+            navigator.serviceWorker.register("service-worker.js")
             .then(() => console.log ("SW registrado com sucesso"))
             .catch(err => console.error("Erro ao registrar SW", err))
         }
     </script>
 
 </body>
+
 </html>
